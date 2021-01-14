@@ -15,6 +15,7 @@ hr {
     margin: 2rem 0rem;
 }
 
+
 /** container **/
 
 .container {
@@ -38,12 +39,18 @@ hr {
     background-color: var(--primary-color);
     border-radius: 0.5rem;
     color: white;
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 .link-secondary {
     color: var(--primary-color);
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
+    display: block;
+    max-width: 140px;
+    margin: 1rem 1rem 1rem 0rem;
 }
 
 /** look into BEM naming convention for CSS **/
@@ -87,6 +94,7 @@ hr {
 
 .hero {
     padding: 2rem;
+    padding-top: 2rem;
 }
 
 .hero .hero-img {
@@ -133,6 +141,16 @@ hr {
     text-align: center;
 }
 
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
 .footer ul {
     padding-inline-start: 0px; 
+}
+
+/** projects **/
+.showcase-list {
+    padding: 1rem;
 }
