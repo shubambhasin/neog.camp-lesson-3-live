@@ -161,3 +161,13 @@ hr {
 .showcase-list {
     padding: 1rem;
 }
+
+.AboutIntro {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 550px;
+    margin: auto;
+}
+/* .AboutIntro .h1 {
+    max-width: 400px;
+} */
