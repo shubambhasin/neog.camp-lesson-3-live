@@ -84,6 +84,7 @@ hr {
 
 .navigation .link {
     color: white;
+    padding: 0.5px
 }
 
 .navigation .link-active {
