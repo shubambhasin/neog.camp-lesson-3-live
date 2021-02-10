@@ -144,7 +144,6 @@ hr {
 
 .section {
     background: linear-gradient(to left, #ebe3e3 0%, #c1c7c2 51%, #ffffff 100%);
-    padding: 2rem;
     padding-left: 1rem;
     padding-right: 1rem;
     max-width: 550px;
