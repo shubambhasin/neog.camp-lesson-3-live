@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #10B981;
-    --off-white: #F3F4F6;
+    --primary-color: #1cc763;
+    --off-white: #d7dae0;
     --dark-gray: #6B7280;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px;
+}
+.arrow {
+    height: 15px;
+    width: 28px;
 }
 
 hr {
@@ -33,20 +37,28 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    
 }
 
 .link-primary {
-    background-color: var(--primary-color);
+    background: linear-gradient(to right, #649276 0%, #00ff62 51%, #2fd859 100%);
     border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgb(83, 81, 81);
     color: white;
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
 }
+.link-primary:hover {
+    background: linear-gradient(to right, #48be79 0%, #00ff62 100%, #2fd859 40%);
+}
+
 
 .link-secondary {
-    color: var(--primary-color);
+    color: linear-gradient(to right, #649276 0%, #00ff62 51%, #2fd859 100%);
+    color: black;
     border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgb(83, 81, 81);
     border: 1px solid var(--primary-color);
     display: block;
     max-width: 140px;
@@ -67,10 +79,14 @@ hr {
 
 /** navigation **/
 .navigation {
-    background-color: var(--primary-color);
+    background: linear-gradient(to right, #649276 0%, #00ff62 51%, #2fd859 100%);
+    
     color: white;
     padding: 0.5rem;
     border-bottom-left-radius: 1rem;
+}
+.navigation:hover {
+    background: linear-gradient(to right, #48be79 0%, #00ff62 100%, #2fd859 40%);
 }
 
 .navigation .nav-brand {
@@ -123,7 +139,17 @@ hr {
 /** section **/
 
 .section {
+    background: linear-gradient(to left, #ebe3e3 0%, #c1c7c2 51%, #ffffff 100%);
     padding: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 550px;
+    margin: auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgb(83, 81, 81);
+}
+.section:hover {
+    background: linear-gradient(to right, #ebe3e3 0%, #c1c7c2 51%, #ffffff 100%);
 }
 
 .section h1 {
@@ -131,16 +157,29 @@ hr {
 }
 
 .ow {
-    background-color: var(--off-white);
+    background: linear-gradient(to right, #ada8a8 0%, #cad1cc 51%, #6d746f 100%);
+    max-width: 550px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 20px rgb(83, 81, 81);
+}
+.ow:hover {
+    background: linear-gradient(to left, #ada8a8 0%, #cad1cc 51%, #6d746f 100%);
+    /* transition: 1s; */
 }
 
 /** footers **/
 .footer {
-    background-color: var(--primary-color); 
+    background: linear-gradient(to right, #649276 0%, #00ff62 51%, #2fd859 100%);
     padding: 2rem 1rem; 
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
+}
+.footer:hover {
+    background: linear-gradient(to right, #48be79 0%, #00ff62 100%, #2fd859 40%);
 }
 
 .footer .link {
