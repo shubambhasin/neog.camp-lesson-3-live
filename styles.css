@@ -74,6 +74,10 @@ hr {
 /** lists **/
 .list-non-bullet {
     list-style: none;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 550px;
+    margin: auto;
 }
 
 .list-item-inline {
