@@ -136,6 +136,7 @@ hr {
     display: block;
     margin: auto;
     border-radius: 50%;
+    box-shadow: 0 0 50px rgb(46, 116, 67);
 }
 
 .hero .hero-heading {
