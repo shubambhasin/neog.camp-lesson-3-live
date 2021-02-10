@@ -57,12 +57,16 @@ hr {
 .link-secondary {
     color: linear-gradient(to right, #649276 0%, #00ff62 51%, #2fd859 100%);
     color: black;
+    background: linear-gradient(to left, #ebe3e3 0%, #dee6df 51%, #ffffff 100%);
     border-radius: 0.5rem;
     box-shadow: 0 0 20px rgb(83, 81, 81);
     border: 1px solid var(--primary-color);
     display: block;
     max-width: 140px;
     margin: 1rem 1rem 1rem 0rem;
+}
+.link-secondary:hover {
+    background: linear-gradient(to right, #ebe3e3 0%, #dae0db 51%, #ffffff 100%);
 }
 
 /** look into BEM naming convention for CSS **/
